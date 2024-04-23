@@ -16,6 +16,6 @@ class cuentas_model extends CI_Model {
     public function borrar_cuenta($id)
     {
         $this->load->database();
-        $query = $this->db->query("UPDATE cuenta SET activo = 0 WHERE id = '$id' AND saldo=0");
+        $query = $this->db->query("UPDATE cuenta SET activo = 0 WHERE id = '$id'");
     }
 }

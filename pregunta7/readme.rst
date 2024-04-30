@@ -1,4 +1,4 @@
 .. image:: Screenshot_3.png
-   :height: 500
-   :width: 1000
+   :height: 400
+   :width: 800
    :alt: alternate text

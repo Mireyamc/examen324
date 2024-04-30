@@ -1,9 +1,0 @@
-importante cuenta administrador
-usuario:
-77788877
-password:
-12345
-cuenta usuario ejemplo
-67468867
-password:
-12345

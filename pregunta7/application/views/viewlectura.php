@@ -25,6 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <?php foreach ($cuentas as $cuenta): ?>
                     <tr>
                         <td><?php echo $cuenta->id; ?></td>
+                        <td><?php echo $cuenta->nombre_p; ?></td>
                         <td><?php echo $cuenta->saldo; ?></td>
                         <td><?php echo $cuenta->tipo; ?></td>
                         <td><?php echo $cuenta->fecha_cre; ?></td>

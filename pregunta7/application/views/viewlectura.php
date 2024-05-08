@@ -14,6 +14,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <thead>
                 <tr>
                     <th>ID</th>
+                    <th>Titular</th>
                     <th>Saldo</th>
                     <th>Tipo</th>
                     <th>Fecha de Creación</th>

@@ -9,7 +9,10 @@ class cuentas_model extends CI_Model {
 	public function cuentas()
 	{
 		$this->load->database();
-        $query = $this->db->query("SELECT * from cuenta WHERE activo = 1");
+        $query = $this->db->query("SELECT cuenta.*, usuario.nombre AS nombre_p
+        FROM cuenta
+        JOIN usuario ON cuenta.id_us = usuario.id
+        WHERE cuenta.activo = 1");
         return $query->result();
 	}
    
